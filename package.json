@@ -1,0 +1,17 @@
+{
+  "name": "config-watcher",
+  "version": "0.0.1",
+  "description": "A simple file watcher mainly for use with remote configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/test-watcher.js"
+  },
+  "engines": {
+    "node": ">9"
+  },
+  "author": "Shaun Warman",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
